@@ -1,6 +1,8 @@
 event-emitter
 =============
 
+[![Build Status](https://travis-ci.org/xdissent/meteor-event-emitter.svg)](https://travis-ci.org/xdissent/meteor-event-emitter)
+
 Meteor-aware EventEmitter wrapper for EventEmitter2 (client) and Node's events.EventEmitter (server)
 
 
@@ -13,7 +15,7 @@ Enable the package via [Meteorite](http://oortcloud.github.io/meteorite/):
 $ mrt add event-emitter
 ```
 
-Create an event 
+Create an EventEmitter instance 
 
 ```coffee
 MyEventLogs = new Meteor.Collection 'my-event-logs'
