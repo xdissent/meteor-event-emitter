@@ -1,0 +1,18 @@
+<head>
+  <title>example</title>
+</head>
+
+<body>
+  {{> my_event_logs}}
+</body>
+
+<template name="my_event_logs">
+  <h1>Logs</h1>
+  <ul>
+  {{#each logs}}
+    <li>{{_id}} {{where}}: {{msg}}</li>
+  {{/each}}
+  </ul>
+  <input type="text" id="msg" placeholder="New Log Message" />
+  <button>Add Message</button>
+</template>
