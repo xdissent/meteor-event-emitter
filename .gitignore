@@ -1,3 +1,4 @@
 .build*
 /.meteor
 smart.lock
+/packages
